@@ -1,22 +1,20 @@
 {
   "name": "koishi-plugin-delaywelcome",
-  "description": "可以延迟欢迎的群聊机器人，避免刷屏",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "延迟欢迎新成员加入群组，避免连续刷屏",
   "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "dist"
-  ],
-  "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
-    "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "welcome"
   ],
-  "devDependencies": {},
   "peerDependencies": {
-    "koishi": "4.18.7"
+    "koishi": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
   }
 }
